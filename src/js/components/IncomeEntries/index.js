@@ -10,7 +10,6 @@ function mapStoreToProps(store) {
     lineItems: store.income.lineItems
   };
 }
-
 // This might look odd but, connect returns a function,
 // that is then called with the component itself.
 export default connect(mapStoreToProps)(IncomeEntries);

@@ -7,10 +7,9 @@ import {
   addIncome
 } from './incomeActions';
 
-export default class IncomeEntries extends React.Component {
+export default class search extends React.Component {
   constructor(props) {
     super(props);
-
     // Here we're binding these methods to the context
     // of the components. This only has to be done,
     // because these methods are called back by
